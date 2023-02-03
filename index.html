@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <script src="./app.js" defer></script>
-    <title>Age Calculator</title>
-  </head>
-  <body>
-    <header>
-      <h2>Age Calculator</h2>
-    </header>
-    <main>
-      <input type="date" name="dob" id="dob" />
-      <button type="submit" id="calc">Calculate</button>
-    </main>
-    <section class="result">
-      <p>Dear user, you are <span id="age"></span> years old.</p>
-    </section>
-    <footer>
-      <p>&copy; 2022 by Abuaslam - 30 Days of Code</p>
-    </footer>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="./app.js" defer></script>
+  <title>Age Calculator</title>
+</head>
+
+<body>
+  <header>
+    <h2>Age Calculator <i class="fa-solid fa-calculator"></i></h2>
+  </header>
+  <main>
+    <input type="date" name="dob" id="dob" />
+    <button type="submit" id="calc">Calculate</button>
+  </main>
+  <section class="result">
+    <p>Dear <i class="fa-solid fa-user"></i> , you are <span id="age"></span> years old.</p>
+  </section>
+  <footer>
+    <p>&copy; 2022 by Abuaslam - 30 Days of Code</p>
+  </footer>
+</body>
+
 </html>
